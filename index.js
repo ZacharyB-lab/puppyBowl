@@ -172,7 +172,8 @@ const render = () => {
       <div>
         <img class="display" src="${singlePlayer.imageUrl}" />
         <h2>${singlePlayer.name}</h2>
-        <h3>${singlePlayer.breed}</h3>
+        <h3>${singlePlayer.id}</h3>
+        <h4>${singlePlayer.breed}</h4>
         <h4>${singlePlayer.status}</h4>
         <button class="playerDelete" data-id="${singlePlayer.id}">Delete</button>
       </div>
