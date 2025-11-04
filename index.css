@@ -1,6 +1,8 @@
 body {
+  display: flex;
   margin: 0;
   padding: 0 1rem;
+  background-color: black;
 }
 
 h1 {
@@ -31,10 +33,13 @@ label {
 .photo {
   max-height: 200px;
 }
-
+.display {
+  max-height: 300px;
+}
 .content {
   display: flex;
   flex-direction: row;
+  color: white;
 }
 
 .leftside {
