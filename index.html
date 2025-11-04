@@ -7,6 +7,42 @@
     <script src="index.js" defer></script>
   </head>
   <body>
-    <div id="app"></div>
+    <div class="content">
+      <div class="leftside">
+        <h1>Puppy Bowl!</h1>
+        <hr />
+        <div id="allPlayers"></div>
+        <hr />
+        <form>
+          <label id="addPlayerForm">
+            Name:
+            <input type="text" name="name" />
+          </label>
+          <br />
+          <label>
+            Breed:
+            <input type="text" name="breed" />
+          </label>
+          <br />
+          <label>
+            Status:
+            <select type="select" name="status">
+              <option value="nothing">Undecided</option>
+              <option value="field">Field</option>
+              <option value="bench">Bench</option>
+            </select>
+          </label>
+          <br />
+          <label>
+            Image URL:
+            <input type="url" name="url" />
+          </label>
+          <br />
+          <button>Invite</button>
+        </form>
+        <hr />
+      </div>
+      <div id="singlePlayer"></div>
+    </div>
   </body>
 </html>
